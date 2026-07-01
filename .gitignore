@@ -1,0 +1,69 @@
+# .gitignore - Portfolio Laravel
+
+# Laravel
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/bootstrap/cache/
+.env
+.env.backup
+.env.*.backup
+.phpunit.result.cache
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies
+vendor/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Build
+public/css/
+public/js/
+public/mix-manifest.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.phpunit.result.cache
+.pytest_cache/
+
+# Logs
+storage/logs/
+*.log
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Misc
+.editorconfig
+.gitattributes
+.vagrant
+Homestead.json
+Homestead.yaml
+Vagrantfile
+
+# NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development
+.env.local
+.env.*.local
